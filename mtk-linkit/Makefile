@@ -11,7 +11,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/mtk-linkit
   TITLE:=MTK LinkIt Smart board support package
   HIDDEN:=1
-  DEPENDS:
+  DEPENDS:+coreutils
   CATEGORY:=Base system
   DEFAULT:=y
 endef
